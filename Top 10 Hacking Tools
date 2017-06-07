@@ -1,0 +1,71 @@
+Repository for www.hackingvision.com to back up Hacking Tutorials & Hacking Tools
+
+Top 10 Hacking Tools
+Wireshark
+
+Wireshark is an open source packet analyzer. It is used to troubleshoot networks, it provides quick and easy network analysis, Originally Wireshark was named Ethereal until May 2016 due to trademark issues.
+
+Wireshark is cross-platform and will run on Linux, MacOS, and Windows it uses the Qt widget toolkit to implement its user interface, it also uses pcap to capture packets. There is also a terminal-based (non-GUI) version of Wireshark called TShark. Wireshark, and the other programs distributed with it such as TShark, are free software, released under the terms of the GNU General Public License.
+Airodump-ng
+
+Airodump-ng is a Wi-Fi analysis tool used for packet capturing of raw 802.11 frames. It is particularly suitable for collecting WEP IVs (Initialization Vector) for the intent of using them with aircrack-ng. If you have a GPS receiver connected to the computer, airodump-ng is capable of logging the coordinates of the found access points.
+
+https://www.aircrack-ng.org
+Nmap
+
+nmap
+
+Nmap (Network Mapper) is a security vulnerability scanner, it was originally written by Gordon Lyon it can be used to discover hosts and services on computer networks. Nmap is excellent for creating maps of the network. Nmap sends specially crafted packets to the target host(s) and then analyzes their responses. It provides a lot of great features including probing networks and host discovery it can also detect operating systems and services. Nmap is excellent for vulnerability detection.
+
+https://nmap.org
+Reaver
+
+Reaver is a tool designed to easily deploy brute force against WPS enabled wireless routers and access points, On average it takes Reaver around 4-10 hours to recover the target AP’s WPA/WPA2 pass phrase in plain text although generally it will most likely only take half this time to guess the correct WPS pin.
+
+There are 100,000,000 Possible Key Values although the ending digit of the key value is known as a checksum witch is calculated based on the last 7 digits lowering the process down to 10,000,000 possibilities. WPS breaks the Pins/Keys in half during this process the keys are then broken down to 10,000 values for the first half and 1,000 for the second half of the key-chain this totals 11,000 possible pins to try lowing the overall time of this process drastically.
+
+Source: https://code.google.com/p/reaver-wps/
+
+Cracking WPA/WPA2 WPA Key Wireless Access Point Passphrase
+Social Engineering Toolkit (SET)
+social-engineer-toolkit-set
+
+The Social-Engineer Toolkit (SET) is specifically designed to perform advanced social engineering attacks against the human element of security. SET was designed to be released with the https://www.social-engineer.org launch and has quickly became a standard tool in a penetration testers arsenal. It comes default in various pen testing operating systems such as Kali Linux, Parrot OS, Black Arch.
+
+WPScan
+
+wpscan-kali-linux
+
+WPScan is a black box WordPress vulnerability scanner that can be used to scan remote WordPress installations to find security issues.
+
+Source: http://wpscan.org/
+Metasploit
+
+Its best-known sub-project is the open source Metasploit Framework, a tool for developing and executing exploit code against a remote target machine. Other important sub-projects include the Opcode Database, shellcode archive and related research.
+
+Source: https://en.wikipedia.org/wiki/Metasploit_Project
+BeEF
+
+beef-xss-2
+
+BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.
+
+Amid growing concerns about web-borne attacks against clients, including mobile clients, BeEF allows the professional penetration tester to assess the actual security posture of a target environment by using client-side attack vectors. Unlike other security frameworks, BeEF looks past the hardened network perimeter and client system, and examines exportability within the context of the one open door: the web browser. BeEF will hook one or more web browsers and use them as beachheads for launching directed command modules and further attacks against the system from within the browser context.
+
+http://beefproject.com/
+PixieWPS
+
+pixiewps-kali-linux
+
+Pixiewps is a tool used for offline brute forcing of WPS pins, while exploiting the low or non-existing entropy of some wireless access points also known as the pixie dust attack, discovered by Dominique Bongard (slides and video). The pixiewps tool (developed by wiire), was born out of the Kali forums, and the development of the tool can be tracked throughout an interesting forum post.
+
+In the correct environment, pixiewps dramatically speeds up the WPS brute force attack time from what was taking up to 12 hours to a a few seconds.
+
+Source: https://www.kali.org/penetration-testing/pixiewps-reaver-aircrack-ng-updates/
+Hashcat
+
+hashcat is the world’s fastest and most advanced password recovery utility, supporting five unique modes of attack for over 200 highly-optimized hashing algorithms. hashcat currently supports CPUs, GPUs, and other hardware accelerators on Linux, Windows, and OSX, and has facilities to help enable distributed password cracking.
+
+https://hashcat.net/hashcat/
+
+You may also like: How to Hack Web Browsers Using BeEF (The Browser Exploitation Framework) www.hackingvision.com
